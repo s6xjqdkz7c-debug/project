@@ -1,2 +1,4 @@
 # AI-Driven Therapy Outcome Prediction for Autism
-## Importance of therapy and lifestyle on Autism patients 
+Importance of therapy and lifestyle on Autism patients 
+# Table of Content
+
