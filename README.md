@@ -1,12 +1,12 @@
 # Autism Therapy Progress Predictor
 This model help us to keep a track of a autism patient for thier betterment and multiple medical purpose.
 
-## Table of content
-- [Features](#Features)
-- [Technologies/tools used](#Technologies/toolsused)
-- [Steps to install & run the project](#Stepstoinstall&runtheproject)
-- [Instructions for Testing the Model](#InstructionsforTestingtheModel)
-- [Screenshots](#Screenshots)
+## Table of Contents
+- [Features](#1-features)
+- [Technologies / Tools Used](#2-technologies-tools-used)
+- [Steps to Install & Run the Project](#3-steps-to-install--run-the-project)
+- [Instructions for Testing the Model](#4-instructions-for-testing-the-model)
+- [Screenshots](#5-screenshots)
 
 ## Getting Started
 ## 1. Features
@@ -57,7 +57,7 @@ This model help us to keep a track of a autism patient for thier betterment and 
 	  *	Clinics
 	  *	Mental health researchers
 ##
-## 2. Technologies/tools used
+## 2. Technologies tools used
   ### 1. Programming Language
   #### Python 3
   * Used for data processing, model building, visualization, and evaluation.
