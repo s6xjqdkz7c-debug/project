@@ -3,7 +3,10 @@ This model help us to keep a track of a autism patient for thier betterment and 
 
 ## Table of content
 - [Features](#Features)
-- [
+- [Technologies/tools used](#Technologies/toolsused)
+- [Steps to install & run the project](#Stepstoinstall&runtheproject)
+- [Instructions for Testing the Model](#InstructionsforTestingtheModel)
+- [Screenshots](#Screenshots)
 
 ## Getting Started
 ## 1. Features
@@ -54,7 +57,7 @@ This model help us to keep a track of a autism patient for thier betterment and 
 	  *	Clinics
 	  *	Mental health researchers
 ##
-## Technologies/tools used
+## 2. Technologies/tools used
   ### 1. Programming Language
   #### Python 3
   * Used for data processing, model building, visualization, and evaluation.
@@ -113,11 +116,11 @@ This model help us to keep a track of a autism patient for thier betterment and 
 
 ##
 ## 4. Instructions for Testing the Model
-### Run the program 
-### Read the FEATURE DISCRIPTION 
-### Enter values and see the results
+### 1. Run the program 
+### 2. Read the FEATURE DISCRIPTION 
+### 3. Enter values and see the results
 
-## Screenshots
+## 5. Screenshots
 <img width="846" height="823" alt="Screenshot 2025-11-24 at 10 41 45 PM" src="https://github.com/user-attachments/assets/6523fd73-ff42-49d5-8bc5-e653cbf5a220" />
 
 <img width="846" height="823" alt="Screenshot 2025-11-24 at 10 42 07 PM" src="https://github.com/user-attachments/assets/c499ceb4-20e5-487c-b100-10d019c0f64f" />
