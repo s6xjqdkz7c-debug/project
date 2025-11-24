@@ -1,5 +1,4 @@
-# AI-Driven Therapy Outcome Prediction for Autism
-
+# Autism Therapy Progress Predictor
 This model help us to keep a track of a autism patient for thier betterment and multiple medical purpose.
 
 ## Table of content
@@ -108,17 +107,19 @@ This model help us to keep a track of a autism patient for thier betterment and 
 
 ##
 ## 3. Steps to install & run the project
-## 4. Instructions for Testing the Model
-### 1. Clone or Download the Project
-git clone https://github.com/your-username/autism-therapy-prediction.git
-cd autism-therapy-prediction
-* Or manually download the ZIP from GitHub and extract it.
+### 1. Download python3 on your system 
+### 2. download lavi.py file
+### 3. Run it and you are good to go...!
 
-### 2. Install Required Dependencies
-* Make sure Python 3 is installed, then run:
-* pip install -r requirements.txt
-* This installs:
-  *	pandas
-  *	scikit-learn
-  *	matplotlib
-  *	numpy
+##
+## 4. Instructions for Testing the Model
+### Run the program 
+### Read the FEATURE DISCRIPTION 
+### Enter values and see the results
+
+## Screenshots
+<img width="846" height="823" alt="Screenshot 2025-11-24 at 10 41 45 PM" src="https://github.com/user-attachments/assets/6523fd73-ff42-49d5-8bc5-e653cbf5a220" />
+
+<img width="846" height="823" alt="Screenshot 2025-11-24 at 10 42 07 PM" src="https://github.com/user-attachments/assets/c499ceb4-20e5-487c-b100-10d019c0f64f" />
+
+
