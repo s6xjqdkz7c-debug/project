@@ -107,4 +107,18 @@ This model help us to keep a track of a autism patient for thier betterment and 
   * for system architecture & workflow
 
 ##
-## 3.Steps to install & run the project
+## 3. Steps to install & run the project
+## 4. Instructions for Testing the Model
+### 1. Clone or Download the Project
+git clone https://github.com/your-username/autism-therapy-prediction.git
+cd autism-therapy-prediction
+* Or manually download the ZIP from GitHub and extract it.
+
+### 2. Install Required Dependencies
+* Make sure Python 3 is installed, then run:
+* pip install -r requirements.txt
+* This installs:
+  *	pandas
+  *	scikit-learn
+  *	matplotlib
+  *	numpy
