@@ -1,128 +1,149 @@
 # Autism Therapy Progress Predictor
-This model help us to keep a track of a autism patient for thier betterment and multiple medical purpose.
+This model helps track an autism patient’s therapy progress for better monitoring, clinical decision-making, and research support.
 
-## Table of Contents
-- [Features](#1-features)
-- [Technologies / Tools Used](#2-technologies-tools-used)
-- [Steps to Install & Run the Project](#3-steps-to-install--run-the-project)
-- [Instructions for Testing the Model](#4-instructions-for-testing-the-model)
-- [Screenshots](#5-screenshots)
+---
 
-## Getting Started
-## 1. Features
+## 📌 Table of Contents
+- [Features](#features)
+- [Technologies / Tools Used](#technologies--tools-used)
+- [Steps to Install & Run the Project](#steps-to-install--run-the-project)
+- [Instructions for Testing the Model](#instructions-for-testing-the-model)
+- [Screenshots](#screenshots)
 
-### 1. Predicts Therapy Progress.
-  * Model predicts how an autistic individual’s therapy is progressing based on given features.
+---
 
-###  2. Uses Two ML Algorithms
-   * Linear Regression (baseline model)
-   * Random Forest Regressor (advanced model)
+# Features
+<details>
+<summary><strong>Click to Expand Features</strong></summary><br>
+
+### 1. Predicts Therapy Progress
+Predicts how an autistic individual’s therapy is progressing using multiple features.
+
+### 2. Uses Two ML Algorithms
+- Linear Regression (baseline model)
+- Random Forest Regressor (advanced model)
 
 ### 3. Handles Categorical Data Automatically
-   * The model converts labels like Autism_Diagnosis into numbers using Label Encoding
+Converts text-based inputs like Autism_Diagnosis using LabelEncoder.
 
-### 4. Learns Patterns From Realistic Data
-   *  dataset contains 1000 realistic autism therapy records with features like:
-      * Age
-	  * Gender
-	  * Symptom severity
-	  * Family involvement
-	  * Autism diagnosis
-	  * Therapy hours
-	  * etc.
+### 4. Learns From Realistic Dataset
+Dataset includes 1000 therapy records with features like:
+- Age
+- Gender
+- Symptom severity
+- Family involvement
+- Autism diagnosis
+- Therapy hours
 
 ### 5. Splits Data Into Train/Test Sets
-  * Uses train_test_split to avoid overfitting and evaluate performance properly.
+Uses train_test_split for unbiased evaluation.
 
-### 6. Generates Predictions for New Patients
-  * Once trained, it can predict therapy progress for any new data entered.
+### 6. Predicts New Patient Progress
+Accepts new input and predicts progress instantly.
 
-### 7. Error Calculation & Model Scoring
-  * Model uses:
-	  * Mean Squared Error (MSE)
-	  *	R² Score
+### 7. Error & Model Evaluation
+- Mean Squared Error (MSE)
+- R² Score
 
 ### 8. Visualization Support
-  * Created a scatter plot showing: Actual therapy progress vs Predicted therapy progress
+Scatter plot showing Actual vs Predicted progress.
 
-### 9. Compares Two Models Head-to-Head
-  * Project creates a table showing performance differences between:
-    * Linear Regression
-	 * Random Forest Regressor
+### 9. Model Comparison
+Compares Linear Regression vs Random Forest Regressor.
 
-### 10. Works on Real-World Social Problem
-  * Helps identify therapy improvements in autistic individuals and assists:
-	  * Parents
-	  * Therapists
-	  *	Clinics
-	  *	Mental health researchers
-##
-## 2. Technologies tools used
-  ### 1. Programming Language
-  #### Python 3
-  * Used for data processing, model building, visualization, and evaluation.
+### 10. Solves a Real Social Problem
+Useful for:
+- Parents
+- Therapists
+- Clinics
+- Researchers
 
-### 2. Libraries / Frameworks
-#### Machine Learning
-##### Scikit-Learn (sklearn) Used for:
-  * Linear Regression
-  * Random Forest Regressor
-  * Train–test split
-  * Label Encoding
-  *	Evaluation metrics (MSE, R²)
+</details>
 
-#### 3.Data Handling
-##### Pandas Used for:
-  * Loading dataset
-  * Cleaning
-  * Feature selection
-  * DataFrame operations
-          
-#### 4. Data Visualization
-##### Matplotlib Used to create:
-  * Scatter plot (Actual vs Predicted)
+---
 
-#### 5. Development Environment
-##### Google Colab / Jupyter Notebook
-  * Used to write and execute all Python code. 
+# Technologies / Tools Used
+<details>
+<summary><strong>Click to Expand Technologies Used</strong></summary><br>
 
-#### 6. Tools for Documentation
-##### Microsoft PowerPoint
-  * For presentation (PPT).
-##### Microsoft Word
-  * For project documentation.
-##### GitHub
-  * For project hosting, version control, and code sharing.
-    
-#### 7. Model Building Tools
-##### Linear Regression Model
-  * Baseline predictive model.
-##### Random Forest Regressor
-  * Advanced ensemble model for better accuracy.   
+### 1. Programming Language
+Python 3
 
-#### 8. Supporting Tools 
-##### LabelEncoder (Sklearn)
-  * Converts categorical text/manual labels into numerical form.
-##### Train-Test Split
-  * For splitting data into training and testing sets.
-##### Diagramming Tools
-  * for system architecture & workflow
+### 2. Machine Learning (Scikit-Learn)
+- Linear Regression
+- Random Forest Regressor
+- LabelEncoder
+- Train-test split
+- Evaluation metrics (MSE, R²)
 
-##
-## 3. Steps to install & run the project
-### 1. Download python3 on your system 
-### 2. download lavi.py file
-### 3. Run it and you are good to go...!
+### 3. Data Handling (Pandas)
+- Data loading
+- Cleaning
+- Feature selection
 
-##
-## 4. Instructions for Testing the Model
-### 1. Run the program 
-### 2. Read the FEATURE DISCRIPTION 
-### 3. Enter values and see the results
+### 4. Visualization (Matplotlib)
+Scatter plot
 
-## 5. Screenshots
-<img width="846" height="823" alt="Screenshot 2025-11-24 at 10 41 45 PM" src="https://github.com/user-attachments/assets/6523fd73-ff42-49d5-8bc5-e653cbf5a220" />
+### 5. Development Environment
+- Google Colab
+- Jupyter Notebook
 
-<img width="846" height="823" alt="Screenshot 2025-11-24 at 10 42 07 PM" src="https://github.com/user-attachments/assets/c499ceb4-20e5-487c-b100-10d019c0f64f" />
+### 6. Documentation Tools
+- Microsoft PowerPoint
+- Microsoft Word
+- GitHub
 
+### 7. Models
+- Linear Regression Model
+- Random Forest Regressor
 
+### 8. Supporting Tools
+- Label encoding
+- Diagram tools
+
+</details>
+
+---
+
+# Steps to Install & Run the Project
+<details>
+<summary><strong>Click to Expand Setup Steps</strong></summary><br>
+
+### 1. Install Python 3
+
+### 2. Download the Project File
+Download lavi.py.
+
+### 3. Run the Project
+Open terminal and run the command:
+
+python3 lavi.py
+
+### 4. Model is ready to use!
+
+</details>
+
+---
+
+# Instructions for Testing the Model
+<details>
+<summary><strong>Click to Expand Instructions</strong></summary><br>
+
+### 1. Run the Program
+### 2. Read the “Feature Description”
+### 3. Enter the required input values
+### 4. View the predicted therapy progress
+
+</details>
+
+---
+
+# Screenshots
+<details>
+<summary><strong>Click to Expand Screenshots</strong></summary><br>
+
+<img width="846" height="823" alt="Screenshot 2025-11-24 at 10 41 45 PM" src="https://github.com/user-attachments/assets/6523fd73-ff42-49d5-8bc5-e653cbf5a220" />
+
+<img width="846" height="823" alt="Screenshot 2025-11-24 at 10 42 07 PM" src="https://github.com/user-attachments/assets/c499ceb4-20e5-487c-b100-10d019c0f64f" />
+
+</details>
